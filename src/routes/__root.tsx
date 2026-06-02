@@ -118,8 +118,22 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <SiteShell>
+        <Outlet />
+      </SiteShell>
     </QueryClientProvider>
+  );
+}
+
+import { SiteHeader } from "../components/site-header";
+import { SiteFooter } from "../components/site-footer";
+
+function SiteShell({ children }: { children: ReactNode }) {
+  return (
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
+      <SiteHeader />
+      <main className="flex-1">{children}</main>
+      <SiteFooter />
+    </div>
   );
 }
