@@ -36,17 +36,17 @@ function ContactPage() {
           <div>
             <div className="text-xs uppercase tracking-widest text-muted-foreground mb-3">Email</div>
             <a href="mailto:hello@webbly.studio" className="font-display text-2xl font-semibold hover:text-mint">
-              hello@webbly.studio
+              development@webbly.tech
             </a>
           </div>
           <div>
             <div className="text-xs uppercase tracking-widest text-muted-foreground mb-3">Phone</div>
-            <div className="font-display text-2xl font-semibold">+1 (415) 555-0148</div>
+            <div className="font-display text-2xl font-semibold">+44 7392511367</div>
           </div>
           <div>
             <div className="text-xs uppercase tracking-widest text-muted-foreground mb-3">Studio</div>
             <div className="text-muted-foreground">
-              548 Market Street<br />San Francisco, CA<br />Remote-first, worldwide.
+              Glasgow,<br />Scotland, United Kingdom<br />Remote-first, worldwide.
             </div>
           </div>
           <div className="rounded-2xl border border-border bg-surface p-6">
@@ -94,11 +94,11 @@ function ContactPage() {
                   name="budget"
                   className="mt-2 w-full rounded-lg bg-background border border-border px-4 py-3 text-sm focus:border-mint focus:outline-none"
                 >
-                  <option>Under $10k</option>
-                  <option>$10k – $25k</option>
-                  <option>$25k – $60k</option>
-                  <option>$60k+</option>
                   <option>Let's discuss</option>
+                  <option>£1,000 – £2,000"</option>
+                  <option>£2k – £10k</option>
+                  <option>£10k+</option>
+                  <option>£15k+ - Consulation Required</option>
                 </select>
               </div>
               <div>
