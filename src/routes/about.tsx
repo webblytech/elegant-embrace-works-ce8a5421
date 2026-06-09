@@ -48,16 +48,16 @@ function AboutPage() {
         <div className="space-y-6">
           <div className="rounded-2xl border border-border bg-surface p-8">
             <div className="text-xs uppercase tracking-widest text-mint">Studio</div>
-            <h3 className="mt-4 font-display text-3xl font-bold">Webbly, est. 2021</h3>
+            <h3 className="mt-4 font-display text-3xl font-bold">Webbly, est. 2025</h3>
             <p className="mt-3 text-muted-foreground">
               Founded by alumni of Stripe, Linear, and Pentagram. Headquartered in San Francisco, working with teams across NA & EU.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-6">
             {[
-              ["120+", "Projects shipped"],
+              ["20+", "Projects shipped"],
               ["38", "Countries served"],
-              ["6", "People on the team"],
+              ["3", "People on the team"],
               ["91%", "Repeat clients"],
             ].map(([n, l]) => (
               <div key={l} className="rounded-2xl border border-border bg-surface p-6">
