@@ -38,7 +38,7 @@ function Hero() {
           Booking Q3 2026 — 4 slots remaining!
         </div>
         <h1 className="mt-6 font-display font-bold tracking-tight text-5xl md:text-7xl lg:text-8xl leading-[0.95] max-w-5xl">
-        Your vision,<span className="text-gradient-mint"> your website.</span>
+        Your vision,          <span className="text-gradient-mint"> Your website.</span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl">
           Webbly is a website design and development agency. We design, build, launch,
